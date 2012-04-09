@@ -1,0 +1,11 @@
+-- drop table game_history;
+create table game_history (game_pk int, player_pk int, score int, eventlog varchar2(256));
+insert into game_history values (1,1,7);
+insert into game_history values (1,2,8);
+insert into game_history values (1,3,9);
+insert into game_history values (1,4,3);
+insert into game_history values (1,5,4);
+insert into game_history values (1,6,5);
+insert into game_history values (1,7,5);
+insert into game_history values (1,8,6);
+insert into game_history values (1,9,7);
